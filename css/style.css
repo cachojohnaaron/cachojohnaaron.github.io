@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+body {
+    font-size: 14px;
+    font-family: poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    color: #666666;
+}
+
+#footer {
+    text-align: center;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.name {
+    font-family: 'IM Fell English', serif;
+    text-align: center
+}
+
+.description {
+    font-family: 'IM Fell English', serif;
+    text-align: center;
+}
+
+.jae-pic {
+    position: relative;
+    z-index: 3;
+    margin-top: -533px;
+    margin-left: 750px;
+
+}
+
+.jae-navbar {
+    background-color: #F8BF1A;
+    color: white;
+}
+
+.jae-text-educational {
+    color: black;
+    font-weight: bold;
+}
+
+.jae-text-background {
+    color: white;
+    font-weight: bold;
+    background-color: #f2b719;
+    padding: 8px;
+}
+
+.jae-text-educational, .jae-text-background {
+    display: inline;
+    position: relative;
+    z-index: 2;
+}
+
+.jae-bg {
+    height: 500px;
+    width: 250vh;
+}
+
+.jae-text-front-blck{
+    margin-top: -410px;
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+
+.jae-text-front-w{
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.jae-desc {
+    font-family: poppins;
+    margin-left: 150px;
+    color: #FFFEF7;
+    font-size: 15px;
+    width: 85vh;
+}
+
+.fa-facebook {
+    margin-left: 150px;
+    font-size: 400px;
+    background: #3B5998;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    font-size: 400px;
+    background: #f14b57;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.fa-facebook:hover, .fa-instagram:hover {
+    background-color: gray;
+    color: white;
+}
+
+.jae-text-email {
+    margin-left: 150px;
+    color: white;
+}
+
+.educationalbg-clsu h3{
+    margin-top: 30px;
+    color: black;
+}
+
+.educ {
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 60px 80px;
+    float: left;
+    background-color: #fee509;
+    height: 450px;
+}
+
+.jae-prev-icon {
+    color: blue;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+.modal-header {
+    background-color: #F8BF1A;
+    color: black;
+    font-family: poppins;
+}
+
+
+
+
+/* about.html */
+.container-about {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 60px 80px;
+    float: left;
+    background-color: black;
+    height: 450px;
+}
+
+
