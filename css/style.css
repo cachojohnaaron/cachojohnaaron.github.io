@@ -23,27 +23,20 @@ body {
     font-weight: bold;
 }
 
-.name {
-    font-family: 'IM Fell English', serif;
-    text-align: center
-}
-
-.description {
-    font-family: 'IM Fell English', serif;
-    text-align: center;
-}
-
 .jae-pic {
     position: relative;
     z-index: 3;
     margin-top: -533px;
     margin-left: 750px;
-
 }
 
 .jae-navbar {
     background-color: #F8BF1A;
     color: white;
+}
+
+.hide {
+    display: none;
 }
 
 .jae-text-educational {
@@ -150,4 +143,108 @@ body {
     color: black;
     font-family: poppins;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+.jae-bg {
+    height: 230px;
+    width: 100%;
+}
+
+.jae-pic {
+    margin-top: -235px;
+    margin-left: 0px;
+    width: 40%;
+}
+
+.jae-text-front-blck{
+    margin-top: -170px;
+    margin-left: 150px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.jae-text-front-w{
+    margin-top: -20px;
+    margin-left: 150px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.jae-desc {
+    font-family: poppins;
+    margin-left: 15px;
+    margin-top: 100px;
+    font-size: 12px;
+    width: 90%;
+    color: black;
+    text-align: left;
+    margin-bottom: -100px;
+}
+
+.jae-text-email {
+    visibility: hidden;
+}
+
+.fa-instagram, .fa-facebook{
+    visibility: hidden;
+}
+
+br {
+    display: none;
+}
+
+.jae-text-educational {
+    margin-left: 0px;
+    color: black;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.jae-text-background {
+    color: white;
+    font-weight: bold;
+    background-color: #f2b719;
+    padding: 5px;
+    z-index: 1;
+}
+
+.educ {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 60px 80px;
+    float: left;
+    background-color: #fee509;
+    height: 450px;
+}
+
+.clsu-logo{
+   width: 80%;
+}
+
+.mnhs-logo{
+   width: 80%;
+}
+
+.carousel-inner {
+    height: 650px;
+    width: 370px;
+}
+
+.hide {
+    display: inline;
+}
+
+}
+
+
 
